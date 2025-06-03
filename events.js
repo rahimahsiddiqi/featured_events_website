@@ -28,7 +28,7 @@ const events = [
         name: "LUMS Tech Conference 2025",
         date: "2025-10-01",
         time: "09:00",
-        location: "LUMS Campus, Lahore",
+        location: "Lahore University of Management Sciences (LUMS), Lahore",
         description: "Annual tech conference at LUMS, featuring prominent speakers and workshops on the latest in technology and innovation."
     },
     {
