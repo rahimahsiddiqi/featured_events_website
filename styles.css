@@ -2,6 +2,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 76px;
+    overflow-x: hidden;
 }
 
 /* Hero Section */
@@ -18,11 +19,13 @@ body {
 .hero-section h1 {
     font-size: 3rem;
     margin-bottom: 30px;
+    padding: 0 15px;
 }
 
 .search-container {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Featured Events Section */
@@ -33,6 +36,7 @@ body {
 .featured-events h2 {
     text-align: center;
     margin-bottom: 40px;
+    padding: 0 15px;
 }
 
 .event-card {
@@ -42,6 +46,7 @@ body {
     margin-bottom: 30px;
     transition: transform 0.3s ease;
     height: 100%;
+    background: white;
 }
 
 .event-card:hover {
@@ -52,20 +57,25 @@ body {
 .event-card h3 {
     color: #333;
     margin-bottom: 15px;
+    font-size: 1.5rem;
 }
 
 .event-card .date-time {
     color: #666;
     margin-bottom: 10px;
+    font-size: 0.9rem;
 }
 
 .event-card .location {
     color: #666;
     margin-bottom: 15px;
+    font-size: 0.9rem;
 }
 
 .event-card .description {
     margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* Contact Section */
@@ -77,6 +87,7 @@ body {
 .contact-section h2 {
     text-align: center;
     margin-bottom: 40px;
+    padding: 0 15px;
 }
 
 /* Footer */
@@ -87,23 +98,13 @@ body {
     text-align: center;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .hero-section h1 {
-        font-size: 2rem;
-    }
-    
-    .event-card {
-        margin-bottom: 20px;
-    }
-}
-
 /* Search Bar */
 #searchInput {
     padding: 15px;
     border-radius: 30px;
     border: none;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
 }
 
 /* Register Button */
@@ -114,9 +115,113 @@ body {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    display: inline-block;
+    font-size: 0.9rem;
 }
 
 .btn-register:hover {
     background-color: #0056b3;
     color: white;
+}
+
+/* Responsive Design */
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .hero-section {
+        padding: 80px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+    
+    .event-card {
+        margin-bottom: 20px;
+    }
+    
+    .contact-section .col-md-6 {
+        max-width: 100%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    body {
+        padding-top: 66px;
+    }
+    
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .search-container {
+        max-width: 100%;
+    }
+    
+    #searchInput {
+        padding: 12px;
+    }
+    
+    .event-card {
+        margin: 0 15px 20px;
+    }
+    
+    .event-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    .contact-section {
+        padding: 40px 0;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .featured-events h2,
+    .contact-section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .event-card {
+        padding: 15px;
+    }
+    
+    .event-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .event-card .description {
+        font-size: 0.9rem;
+    }
+    
+    .btn-register {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Fix for iOS devices */
+@supports (-webkit-touch-callout: none) {
+    .hero-section {
+        background-attachment: scroll;
+    }
 } 
