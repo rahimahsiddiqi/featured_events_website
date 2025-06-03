@@ -17,6 +17,7 @@ body {
 
 .navbar-nav .nav-link.active {
     color: #bbdefb !important; 
+}
 
 .navbar-toggler-icon {
     filter: invert(1);
@@ -56,6 +57,7 @@ body {
     margin-bottom: 40px;
     padding: 0 15px;
     color: #0d47a1; 
+}
 
 .event-card {
     border: 1px solid #e0e0e0;
