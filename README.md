@@ -37,13 +37,3 @@ A responsive single-page website for discovering local events, built with HTML5,
 - Bootstrap 5.3.0
 - Font Awesome Icons
 
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Contributing
-
-Feel free to submit issues and enhancement requests! 
