@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Display events when page loads
     displayEvents(events);
 
-    // Add search functionality
     const searchInput = document.getElementById('searchInput');
     searchInput.addEventListener('input', (e) => {
         const searchTerm = e.target.value.toLowerCase();
