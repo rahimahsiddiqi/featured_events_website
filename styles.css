@@ -1,29 +1,28 @@
-/* General Styles */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 76px;
     overflow-x: hidden;
-    background-color: #e0e0e0; /* Light gray background */
+    background-color: #e0e0e0; 
 }
 
-/* Navigation Bar */
+
 .navbar {
-    background-color: #0d47a1 !important; /* Very dark blue for nav bar */
+    background-color: #0d47a1 !important; 
 }
 
 .navbar-brand, .navbar-nav .nav-link {
-    color: #ffffff !important; /* White text for nav items */
+    color: #ffffff !important; 
 }
 
 .navbar-nav .nav-link.active {
-    color: #bbdefb !important; /* Very light blue for active link */
-}
+    color: #bbdefb !important; 
 
 .navbar-toggler-icon {
     filter: invert(1);
 }
 
-/* Hero Section */
+
 .hero-section {
     background: linear-gradient(rgba(13, 71, 161, 0.8), rgba(13, 71, 161, 0.8)), url('../assets/hero-bg.jpg'); /* Dark blue overlay */
     background-size: cover;
@@ -46,27 +45,26 @@ body {
     padding: 0 15px;
 }
 
-/* Featured Events Section */
+
 .featured-events {
     padding: 50px 0;
-    background-color: #ffffff; /* White background for events section */
+    background-color: #ffffff; 
 }
 
 .featured-events h2 {
     text-align: center;
     margin-bottom: 40px;
     padding: 0 15px;
-    color: #0d47a1; /* Very dark blue for section heading */
-}
+    color: #0d47a1; 
 
 .event-card {
-    border: 1px solid #e0e0e0; /* Light gray border */
+    border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 30px;
     transition: transform 0.3s ease;
     height: 100%;
-    background: #ffffff; /* White background */
+    background: #ffffff; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
@@ -76,28 +74,28 @@ body {
 }
 
 .event-card h3 {
-    color: #1565c0; /* Darker blue for event title */
+    color: #1565c0; 
     margin-bottom: 15px;
     font-size: 1.5rem;
 }
 
 .event-card .date-time,
 .event-card .location {
-    color: #424242; /* Dark gray for date/time and location */
+    color: #424242; 
     margin-bottom: 10px;
     font-size: 0.9rem;
 }
 
 .event-card .description {
-    color: #212121; /* Even darker gray for description */
+    color: #212121; 
     margin-bottom: 20px;
     font-size: 1rem;
     line-height: 1.5;
 }
 
-/* Contact Section */
+
 .contact-section {
-    background-color: #bbdefb; /* Very light blue background */
+    background-color: #bbdefb; 
     padding: 50px 0;
 }
 
@@ -105,33 +103,33 @@ body {
     text-align: center;
     margin-bottom: 40px;
     padding: 0 15px;
-    color: #0d47a1; /* Very dark blue for section heading */
+    color: #0d47a1; 
 }
 
-/* Footer */
+
 .footer {
-    background-color: #0d47a1; /* Very dark blue for footer */
+    background-color: #0d47a1; 
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
-/* Search Bar */
+
 #searchInput {
     padding: 15px;
     border-radius: 30px;
-    border: 1px solid #1565c0; /* Darker blue border */
+    border: 1px solid #1565c0; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     font-size: 1rem;
 }
 
 #searchInput::placeholder {
-    color: #1565c0; /* Darker blue placeholder text */
+    color: #1565c0; 
 }
 
-/* Register Button */
+
 .btn-register {
-    background-color: #1565c0; /* Darker blue for button */
+    background-color: #1565c0; 
     color: white;
     padding: 8px 20px;
     border-radius: 5px;
@@ -143,19 +141,18 @@ body {
 }
 
 .btn-register:hover {
-    background-color: #0d47a1; /* Even darker blue on hover */
+    background-color: #0d47a1; 
     color: white;
 }
 
-/* Responsive Design */
-/* Large devices (desktops, less than 1200px) */
+
 @media (max-width: 1199.98px) {
     .hero-section h1 {
         font-size: 2.5rem;
     }
 }
 
-/* Medium devices (tablets, less than 992px) */
+
 @media (max-width: 991.98px) {
     .hero-section {
         padding: 80px 0;
@@ -174,7 +171,7 @@ body {
     }
 }
 
-/* Small devices (landscape phones, less than 768px) */
+
 @media (max-width: 767.98px) {
     body {
         padding-top: 66px;
@@ -209,7 +206,7 @@ body {
     }
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
+
 @media (max-width: 575.98px) {
     .hero-section {
         padding: 50px 0;
@@ -242,7 +239,7 @@ body {
     }
 }
 
-/* Fix for iOS devices */
+
 @supports (-webkit-touch-callout: none) {
     .hero-section {
         background-attachment: scroll;
