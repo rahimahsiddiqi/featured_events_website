@@ -1,4 +1,4 @@
-const events = [
+const events = [ 
     {
         id: 1,
         name: "Hasan Raheem Concert",
