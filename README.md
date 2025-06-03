@@ -89,10 +89,10 @@ A responsive single-page website for discovering local events, built with HTML5,
    cd your/preferred/location
 
    # Clone the repository
-   git clone https://github.com/your-username/dynamics360.git
+   git clone https://github.com/rahimahsiddiqi/featured_events_website.git
 
    # Move into the project directory
-   cd dynamics360
+   cd featured_events_website
    ```
 
 ### Making Changes and Updates
@@ -193,7 +193,7 @@ git remote -v
 4. Scroll down to "GitHub Pages" section
 5. Under "Source", select "main" branch
 6. Click "Save"
-7. Your site will be published at: `https://[your-username].github.io/[repository-name]`
+7. Your site will be published at: `https://[your-username].github.io/featured_events_website`
 
 ### Testing Mobile Responsiveness
 1. Open the website in your browser
