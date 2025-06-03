@@ -33,7 +33,7 @@ const events = [
     },
     {
         id: 5,
-        name: "Art Exhibition at NCA Lahore",
+        name: "Art Exhibition",
         date: "2025-11-05",
         time: "10:00",
         location: "National College of Arts (NCA), Lahore",
