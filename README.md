@@ -9,7 +9,6 @@ A responsive single-page website for discovering local events, built with HTML5,
 - Search functionality to filter events
 - Clean and modern UI using Bootstrap
 - Contact form section
-- Mobile-friendly navigation
 
 ## Project Structure
 
