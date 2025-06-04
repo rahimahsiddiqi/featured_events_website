@@ -55,5 +55,5 @@ A responsive single-page website for discovering local events, built with HTML5,
 - CSS3
 - JavaScript (Vanilla JS)
 - Bootstrap 5.3.0
-- Font Awesome Icons
+
 
