@@ -24,12 +24,15 @@ A responsive single-page website for discovering local events, built with HTML5,
 
 ## Running the Project
 
-### Method 1: Direct File Opening
+### Method 1: Directly using Live Link
+1. Link to the deployed Github pages: https://rahimahsiddiqi.github.io/featured_events_website/
+   
+### Method 2: Direct File Opening
 1. Simply double-click the `index.html` file
 2. It will open in your default web browser
 3. URL will look like: `file:///path/to/your/project/index.html`
 
-### Method 2: Using Python's Built-in Server
+### Method 3: Using Python's Built-in Server
 1. Open terminal/command prompt
 2. Navigate to project directory:
    ```bash
