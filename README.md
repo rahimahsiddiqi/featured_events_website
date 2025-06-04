@@ -32,8 +32,7 @@ A responsive single-page website for discovering local events, built with HTML5,
 ### Method 2: Using Python's Built-in Server
 1. Open terminal/command prompt
 2. Navigate to project directory:
-   ```bash
-   cd path/to/dynamics360
+   ``git clone  https://github.com/rahimahsiddiqi/featured_events_website
    ```
 3. Run one of these commands:
    ```bash
