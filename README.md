@@ -32,8 +32,8 @@ A responsive single-page website for discovering local events, built with HTML5,
 ### Method 2: Using Python's Built-in Server
 1. Open terminal/command prompt
 2. Navigate to project directory:
-   ```git clone
-   https://github.com/rahimahsiddiqi/featured_events_website
+   ```bash
+   git clone https://github.com/rahimahsiddiqi/featured_events_website
    ```
 4. Run one of these commands:
    ```bash
