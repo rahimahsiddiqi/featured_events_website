@@ -32,9 +32,10 @@ A responsive single-page website for discovering local events, built with HTML5,
 ### Method 2: Using Python's Built-in Server
 1. Open terminal/command prompt
 2. Navigate to project directory:
-   ``git clone  https://github.com/rahimahsiddiqi/featured_events_website
+   ```git clone
+   https://github.com/rahimahsiddiqi/featured_events_website
    ```
-3. Run one of these commands:
+4. Run one of these commands:
    ```bash
    # If you have Python 3:
    python -m http.server 8000
@@ -42,7 +43,7 @@ A responsive single-page website for discovering local events, built with HTML5,
    # If you have Python 2:
    python -m SimpleHTTPServer 8000
    ```
-4. Open your browser and go to: `http://localhost:8000`
+5. Open your browser and go to: `http://localhost:8000`
 
 
 ## Technologies Used
