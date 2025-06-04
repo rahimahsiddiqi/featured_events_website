@@ -6,7 +6,7 @@ A responsive single-page website for discovering local events, built with HTML5,
 
 - Responsive design that works on mobile, tablet, and desktop
 - Featured events section with event cards
-- Search functionality to filter events
+- Search functionality to filter events (BONUS)
 - Clean and modern UI using Bootstrap
 - Contact form section
 
